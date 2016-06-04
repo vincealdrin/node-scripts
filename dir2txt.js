@@ -3,7 +3,7 @@ let path = require('path');
 let Readable = require('stream').Readable;
 
 /**
- * Lists all the files in a directory to a .txt 
+ * List all the files in a directory to a .txt 
  * @param {string} dir - The directory you want to list
  * @param {string} txtpath - The path of your .txt
  * @param {string=} filter - The file extension filter(omit ".")
