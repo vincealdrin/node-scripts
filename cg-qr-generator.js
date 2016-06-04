@@ -14,7 +14,7 @@ var args = [
 /**
  * Generates qr code images and new .txt file if serials are not seperated by \n
  * @param {string} path - The path to .txt file containing 10 digit serial number
- * @param {string} delimiter - The path to .txt file containing 10 digit serial number
+ * @param {string=} delimiter - The path to .txt file containing 10 digit serial number(Default is \n)
  * @param {string=} type - The image file type(png, svg, pdf, eps)
  * @param {number=} size - The qr code image resolution size(png & svg only)
  * @param {string=} ec_level - The error correction level standard(L, M, H, Q)
