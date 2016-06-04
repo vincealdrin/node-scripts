@@ -8,7 +8,7 @@ let Readable = require('stream').Readable;
  * @param {string} txtpath - The path of your .txt
  * @param {string=} filter - The file extension filter(omit ".")
  */
-(function dirToTxt(dir, txtpath, filter) {
+(function dirToTxt(dir = './', txtpath = 'dirList.txt', filter) {
   let filePath = path.dirname(txtpath);
 
   fs.stat(filePath, (err, stats) => {
